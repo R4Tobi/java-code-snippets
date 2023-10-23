@@ -51,7 +51,12 @@ public class Methods {
         if(number <= 1) {
             return false;
         }
-        for(int i = 2;i <= number / 2; i++) {
+
+        if(number % 2 == 0){
+            return false;
+        }
+
+        for(int i = 2;i < (number / 2); i++) { //Optimierung number/2 weil 2 der Kleinste wert in number = p * q für p oder q ist
             if((number % i)==0){
                 return  false;
             }

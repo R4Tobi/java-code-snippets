@@ -41,10 +41,10 @@ public class Main {
         System.out.println(
                 Methods.biggestNumber(new int[]{12, 54, -34, -16}));
         System.out.println(
-                Methods.sum(new int[]{230, 123, 234}));
+                Methods.sum(new int[]{230, 123, 234}));*/
         System.out.println(
-                Methods.checkPrime(23));
-        System.out.println(
+                Methods.checkPrime(17));
+        /*System.out.println(
                 Methods.simpleMath(3,5,"/"));
         System.out.println(
                 Methods.circularArea(34.7));
@@ -77,7 +77,7 @@ public class Main {
         System.out.println(
                 JavaAPI.time());
         System.out.println(Arrays.toString(
-                JavaAPI.solveQuadraticEquation(1, 5.0, -8.0)));*/
+                JavaAPI.solveQuadraticEquation(1, 5.0, -8.0)));
 
         Scanner scn = new Scanner(System.in);
         System.out.print("Wie viele Stellen soll dein Passwort haben? :");
@@ -106,7 +106,7 @@ public class Main {
         RockPaperScissors game = new RockPaperScissors(roundCount, isAgainstComputer);
         game.playGame();
 
-        scanner.close();
+        scanner.close();*/
 
     }
 }
